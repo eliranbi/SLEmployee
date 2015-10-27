@@ -1,0 +1,34 @@
+{
+  "name": "employee",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "_id": {
+      "type": "number",
+      "id": true,
+      "index": true
+    },
+    "first_name": {
+      "type": "string",
+      "index": true
+    },
+    "last_name": {
+      "type": "string",
+      "index": true
+    },
+    "img": {
+      "type": "string"
+    },
+    "job_title": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
